@@ -1,0 +1,81 @@
+.alfa {
+    border: 10px solid #d1bfa6; /* Толщина, стиль и цвет границы  */
+    border-radius: 6px; /* Устанавливает радиус скругления уголков рамки */
+    float: left; /* Обтекание по правому краю */
+}
+.layer1 {
+    background-color: #e2dbd1; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    width: 300px; /* Ширина слоя */
+    height: 470px; /* Высота слоя */
+    line-height: 1; /* устанавливаем базовую высоту */
+}
+#choice {
+    font-family: Times, serif; /* Семейство шрифта */
+    font-size: 14px; /* Размер шрифта */ 
+    width: 200px; /* Ширина слоя */
+    height: 20px; /* Высота слоя */
+    margin: 5px 20px 0px 50px; /* Отступ сверху справва снизу слева */
+}
+#nameText {
+    font-family: Times, serif; /* Семейство шрифта */
+    font-size: 14px; /* Размер шрифта */
+    text-align: justify; /* Выравнивание текста */
+    margin-left:10px; /* Отстутп слева */
+}
+#russianNames {
+    font-family: Times, serif; /* Семейство шрифта */
+    font-size: 16px; /* Размер шрифта */
+    color: black; /* Цвет текста */
+    background-color: white; /* Цвет фона */
+    width: 200px; /* Ширина слоя */
+    height: 290px; /* Высота слоя */
+    margin:0px 20px 10px 50px; /* Отступ сверху справва снизу слева */
+}
+.layer1 p {
+    font-family: Times, serif; /* Семейство шрифта */
+    font-size: 16px; /* Размер шрифта */ 
+}
+.layer1 button {
+    margin-top: 6px; /* Отступ кнопки сверху */
+    margin-left: 38%; /* Выравнивание кнопки слева */
+    /*margin-left: 115px; /* Выравнивание кнопки слева */
+}
+.layer2 {
+    background: #e2dbd1 url(imgback.png) center 5px no-repeat;; /* Картинка фона */
+    padding: 5px; /* Поля вокруг текста */
+    width: 300px; /* Ширина слоя */
+    height: 470px; /* Высота слоя */
+    line-height: 1; /* устанавливаем базовую высоту */
+    float: left; /* Обтекание по правому краю */
+}
+#finType {
+    font-family: Times, serif; /* Семейство шрифта */
+    font-size: 18px; /* Размер шрифта */
+    margin-top: 11px; /* Отступ сверху */
+    color: black; /* Цвет текста */
+}
+#finRite {
+    font-family: Times, serif; /* Семейство шрифта */
+    font-size: 13px; /* Размер шрифта */
+    color: black; /* Цвет текста */
+}
+#finTypeRu {
+    font-family: Times, serif; /* Семейство шрифта */
+    font-size: 15px; /* Размер шрифта */
+    margin-top: 7px; /* Отступ сверху */
+    margin-bottom: 12px; /* Отступ снизу */
+    color: gray /* Цвет текста */
+}
+.layer2 p {
+    font-family: Times, serif; /* Семейство шрифта */
+    text-align: center; /* Текст по центру */
+    font-size: 14px; /* Размер шрифта */
+    color: black; /* Цвет текста */
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 0.1em; /* Отступ снизу */
+}
+.clear {
+    clear: left; /* Отмена обтекания */
+}

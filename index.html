@@ -1,0 +1,35 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Перевод имен</title>
+    
+</head>
+<body>
+    <p>Имена в <b>именительном</b> падеже (<i>Иван, Мария</i>), одно имя в строке или через запятую:</p>
+<div class="alfa">
+    <div class="layer1">
+            <select id="choice" onchange="changePurchase(this)">
+                    <option value="hide">Тип записки</option>
+                    <option value="aboutHealthOrdinary">О здравии / Обычное</option>
+                    <option value="aboutHealthSorocaust">О здравии / Сорокоуст</option>
+                    <option value="aboutReposeNormal">Об упокоении / Обычное</option>
+                    <option value="aboutRestorationSorocaust">Об упокоении / Сорокоуст</option>
+                </select>
+                <p id="nameText">Имена в <b>именительном</b> падеже (<i>Пётр, Мария</i>), одно имя в строке или через запятую (всего 15-ть имен):</p> 
+        <textarea id="russianNames"></textarea>
+        <button onclick="printDiv()" >Печать</button>
+    </div>
+    <div class="layer2">
+        <p id="finType"></p>
+        <p id="finRite"></p>
+        <p id="finTypeRu"></p>
+        <p id="greekNames"></p>
+    </div>
+    <div class="clear"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
