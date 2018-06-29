@@ -107,22 +107,26 @@
             </div>
             
             <script>
-            document.getElementById('container-fin-type').innerHTML = localStorage['fin-type'];
-            document.getElementById('container-fin-type-1').innerHTML = localStorage['fin-type'];
-            document.getElementById('container-fin-type-2').innerHTML = localStorage['fin-type'];
-            
-            document.getElementById('container-fin-rite').innerHTML = localStorage['fin-rite'];
-            document.getElementById('container-fin-rite-1').innerHTML = localStorage['fin-rite'];
-            document.getElementById('container-fin-rite-2').innerHTML = localStorage['fin-rite'];
-            
-            document.getElementById('container-fin-rite-ru').innerHTML = localStorage['fin-rite-ru'];
-            document.getElementById('container-fin-rite-ru-1').innerHTML = localStorage['fin-rite-ru'];
-            document.getElementById('container-fin-rite-ru-2').innerHTML = localStorage['fin-rite-ru'];
-            
-            document.getElementById('container-greek-names').innerHTML = localStorage['greek-names'];
-            document.getElementById('container-greek-names-1').innerHTML = localStorage['greek-names'];
-            document.getElementById('container-greek-names-2').innerHTML = localStorage['greek-names'];
-            
+
+            var localObject = {
+                'container-fin-type': 'fin-type',
+                'container-fin-type-1': 'fin-type',
+                'container-fin-type-2': 'fin-type',
+                'container-fin-rite': 'fin-rite',
+                'container-fin-rite-1': 'fin-rite',
+                'container-fin-rite-2': 'fin-rite',
+                'container-fin-rite-ru': 'fin-rite-ru',
+                'container-fin-rite-ru-1': 'fin-rite-ru',
+                'container-fin-rite-ru-2': 'fin-rite-ru',
+                'container-greek-names': 'greek-names',
+                'container-greek-names-1': 'greek-names',
+                'container-greek-names-2': 'greek-names'
+            };
+
+            for (var cont in localObject) {
+                document.getElementById(cont).innerHTML = localStorage[localObject[cont]];
+            };
+
             localStorage.clear();
             </script>
 </body>
